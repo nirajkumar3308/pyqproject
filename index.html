@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BEU PYQ Hub | Bihar Engineering University</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #fff3e0, #fbe9e7);
+      min-height: 100vh;
+      color: #212121;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header {
+      background-color: #0d47a1;
+      color: #fff;
+      padding: 15px 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      background: #1976d2;
+      color: white;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+
+    nav button:hover {
+      background: #ffca28;
+      color: #0d47a1;
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    main {
+      text-align: center;
+      padding: 60px 20px;
+      flex-grow: 1;
+    }
+
+    main h1 {
+      font-size: 48px;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+
+    main p {
+      font-size: 20px;
+      color: #444;
+      margin-bottom: 40px;
+    }
+
+    .btn-box {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .btn-box button {
+      padding: 16px;
+      font-size: 18px;
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn-box button:hover {
+      background-color: #ffd54f;
+      color: #1e88e5;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #777;
+      background-color: #e3f2fd;
+    }
+
+    @media (max-width: 600px) {
+      header, nav, main {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .title {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      nav button {
+        font-size: 14px;
+        padding: 8px 14px;
+      }
+
+      main h1 {
+        font-size: 32px;
+      }
+
+      .btn-box button {
+        font-size: 16px;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title">BEU PYQ Hub | Previous Year Questions for Bihar Engineering University</div>
+    <nav>
+      <button onclick="location.href='#'">HOME</button>
+      <button onclick="location.href='admin-login.html'">ADMIN</button>
+    </nav>
+  </header>
+
+  <main>
+    <h1>BEU PYQ Hub</h1>
+    <p>Get Mid & End Semester Previous Year Questions – Branch-wise, Semester-wise</p>
+
+    <div class="btn-box">
+      <button onclick="location.href='mid-semester.html'">Mid Semester Questions</button>
+      <button onclick="location.href='end-semester.html'">End Semester Questions</button>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 BEU PYQ Hub | Created by Niraj Kumar | Made with 💙 for Students
+  </footer>
+</body>
+</html>
